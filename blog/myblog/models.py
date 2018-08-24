@@ -8,4 +8,4 @@ class Author(models.Model):
 
 class Article(models.Model):
     title = models.TextField(max_length=100)
-    
+    body = models.
